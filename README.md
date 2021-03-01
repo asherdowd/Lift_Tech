@@ -10,4 +10,7 @@
 (This is the iOS UI Kit but the initial project is for Android. iOS will come after.)
   [XD Prototype](https://xd.adobe.com/view/2f57f736-55f2-43b9-b257-6b9bc09be31d-7a04)
   
+## Platforms
+  Initial platform version will be for Android with eventual iOS support to come.
+  
 ##Lift Tech Initial Commit
