@@ -7,7 +7,7 @@
 ## Who is it for?
   This app is designed for serious weight lifters that enjoy fine-tuning their lifting schedule and also knowing exact percentages for ROM, PRE, MAX Lifts, De-loads, etc.
 ## Prototype:
-(This is the iOS UI Kit but the initial project is for Android. iOS will come after.)
+(This is the iOS UI Kit but the initial project is for Android. iOS will come after.)</br>
   [XD Prototype](https://xd.adobe.com/view/2f57f736-55f2-43b9-b257-6b9bc09be31d-7a04)
   
 ## Platforms
