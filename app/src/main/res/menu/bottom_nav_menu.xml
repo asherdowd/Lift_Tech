@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_icon"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_plate_calculator"
+        android:icon="@drawable/ic_plate_calculator_icon"
+        android:title="Calculator" />
+    <item
+        android:id="@+id/navigation_builder"
+        android:icon="@drawable/ic_builder_icon"
+        android:title="Builder" />
+
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_workout_history_icon"
+        android:title="History" />
+
+</menu>
