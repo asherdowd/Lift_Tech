@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".PlateInventoryFragment">
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:alpha=".1"
+        android:background="@drawable/ic_bbv3expanded"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="199dp"
+        android:layout_height="666dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextNumber100s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_100s"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textAlignment="textEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber55s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_55s"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber45s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_45s"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber35s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_35s"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber25s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_25s"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber15s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_15s"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber10s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_10s"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber7.5s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_7.5s"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber5s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_5s"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber2.5s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_2.5s"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber1.25s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_1.25s"
+            android:inputType="number"
+            android:textAlignment="viewEnd" />
+
+        <EditText
+            android:id="@+id/editTextNumber1s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_1s"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumber.75s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_.75s"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumber.5s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_.5s"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumber.25s"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/pairs_of_.25s"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="194dp"
+        android:layout_height="663dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView100s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_100lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView55s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_55lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView45s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_45lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView35s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_35lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView25s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_25lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView15s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_15lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView10s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_10lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView7.5s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_7.5lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView5s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_5lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView2.5s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_2.5lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView1.25s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_1.25lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView1s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_1lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView.75s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_.75lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView.5s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_.5lbs_pairs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView.25s"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/_.25lbs_pairs"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
