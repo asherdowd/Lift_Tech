@@ -3,7 +3,7 @@
   Lift Tech is a workout app that has a unique set of tools that are not common for most weight lifting apps available.
 ## Unique Features:
   The initial release of Lift Tech will feature a weight plate calculator that incorporates every ounce from the bar type, collars selected, fractional plates used, KG or Lbs.
-  Also included with the app will be a comprehensive workout builder based and dozens of popular workout program styles and methods giving the user the ability to customize and save personalized workouts for most popular lifting types.
+  Also included with the app will be a comprehensive workout builder based on dozens of popular workout program styles and methods giving the user the ability to customize and save personalized workouts for most popular lifting types.
 ## Who is it for?
   This app is designed for serious weight lifters that enjoy fine-tuning their lifting schedule and also knowing exact percentages for ROM, PRE, MAX Lifts, De-loads as well as wanting to know exact plate combinations for a given lift based on what plates the user has available.
 ## Prototype:
