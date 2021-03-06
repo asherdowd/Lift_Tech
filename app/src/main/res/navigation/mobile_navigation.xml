@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/navigation_home">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -15,7 +15,12 @@
         android:id="@+id/navigation_plate_calculator"
         android:name="com.example.lifttech.ui.plate_calculator.PlateCalculatorFragment"
         android:label="Plate Calculator"
-        tools:layout="@layout/fragment_plate_calculator" />
+        tools:layout="@layout/fragment_plate_calculator" >
+        <action
+            android:id="@+id/action_navigation_plate_calculator_to_plateInventoryFragment4"
+            app:destination="@id/plateInventoryFragment"
+            app:popUpTo="@id/plateInventoryFragment" />
+    </fragment>
 
 
     <fragment
@@ -25,9 +30,22 @@
         tools:layout="@layout/fragment_builder" />
 
 
+
+
     <fragment
         android:id="@+id/navigation_history"
         android:name="com.example.lifttech.ui.history.HistoryFragment"
         android:label="History"
         tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/plateInventoryFragment"
+        android:name="com.example.lifttech.PlateInventoryFragment"
+        android:label="fragment_plate_inventory"
+        tools:layout="@layout/fragment_plate_inventory" >
+        <action
+            android:id="@+id/action_plateInventoryFragment_to_navigation_plate_calculator2"
+            app:destination="@id/navigation_plate_calculator" />
+    </fragment>
+
+
 </navigation>

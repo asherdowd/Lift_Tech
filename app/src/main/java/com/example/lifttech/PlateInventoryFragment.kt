@@ -1,4 +1,4 @@
-package com.example.navtest
+package com.example.lifttech
 
 import android.os.Bundle
 import android.view.LayoutInflater
