@@ -3,4 +3,65 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Delete</string>
+    <string name="plate_calculator">Plate Calculator</string>
+    <string name="inventory">Inventory</string>
+
+
+
+    // hints for read-only text fields
+    <string name="_100lbs_pairs">100LBS Pairs</string>
+    <string name="_55lbs_pairs">55LBS Pairs</string>
+    <string name="_45lbs_pairs">45LBS Pairs</string>
+    <string name="_35lbs_pairs">35LBS Pairs</string>
+    <string name="_25lbs_pairs">25LBS Pairs</string>
+    <string name="_15lbs_pairs">15LBS Pairs</string>
+    <string name="_10lbs_pairs">10LBS Pairs</string>
+    <string name="_7.5lbs_pairs">7.5LBS Pairs</string>
+    <string name="_5lbs_pairs">5LBS Pairs</string>
+    <string name="_2.5lbs_pairs">2.5LBS Pairs</string>
+    <string name="_1.25lbs_pairs">1.25LBS Pairs</string>
+    <string name="_1lbs_pairs">1LBS Pairs</string>
+    <string name="_.75lbs_pairs">.75LBS Pairs</string>
+    <string name="_.5lbs_pairs">.5LBS Pairs</string>
+    <string name="_.25lbs_pairs">.25LBS Pairs</string>
+
+
+    // strings for editable num fields
+    <string name="pairs_of_100s">Pairs of 100s</string>
+    <string name="pairs_of_55s">Pairs of 55s</string>
+    <string name="pairs_of_45s">Pairs of 45s</string>
+    <string name="pairs_of_35s">Pairs of 35s</string>
+    <string name="pairs_of_25s">Pairs of 25s</string>
+    <string name="pairs_of_15s">Pairs of 25s</string>
+    <string name="pairs_of_10s">Pairs of 10s</string>
+    <string name="pairs_of_7.5s">Pairs of 7.5s</string>
+    <string name="pairs_of_5s">Pairs of 5s</string>
+    <string name="pairs_of_2.5s">Pairs of 2.5s</string>
+    <string name="pairs_of_1.25s">Pairs of 1.25s</string>
+    <string name="pairs_of_1s">Pairs of 1s</string>
+    <string name="pairs_of_.75s">Pairs of .75s</string>
+    <string name="pairs_of_.5s">Pairs of .5s</string>
+    <string name="pairs_of_.25s">Pairs of .25s</string>
+
+
+    // placeholder for an array :)
+    <string-array name="plate_inventory">
+        <item>100LBS</item>
+        <item>55LBS</item>
+        <item>45LBS</item>
+        <item>35LBS</item>
+        <item>25LBS</item>
+        <item>15LBS</item>
+        <item>10LBS</item>
+        <item>7.5LBS</item>
+        <item>5LBS</item>
+        <item>2.5LBS</item>
+        <item>1.25LBS</item>
+        <item>1LBS</item>
+        <item>.75LBS</item>
+        <item>.5LBS</item>
+        <item>.25</item>
+    </string-array>
 </resources>
