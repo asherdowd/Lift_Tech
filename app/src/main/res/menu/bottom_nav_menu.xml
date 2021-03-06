@@ -21,4 +21,9 @@
         android:icon="@drawable/ic_workout_history_icon"
         android:title="History" />
 
+    <item
+        android:id="@+id/navigation_plate_inventory"
+        android:icon="@drawable/ic_test"
+        android:title="Test" />
+
 </menu>
