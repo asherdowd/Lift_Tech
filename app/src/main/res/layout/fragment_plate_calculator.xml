@@ -19,6 +19,8 @@
             android:background="@drawable/ic_bbv3expanded"></ImageView>
     </LinearLayout>
 
+
+
     <TextView
         android:id="@+id/text_plate_calculator"
         android:layout_width="match_parent"
