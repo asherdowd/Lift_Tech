@@ -44,6 +44,10 @@
     <string name="pairs_of_.75s">Pairs of .75s</string>
     <string name="pairs_of_.5s">Pairs of .5s</string>
     <string name="pairs_of_.25s">Pairs of .25s</string>
+    <string name="Calculator">Calculator</string>
+    <string name="Builder">Builder</string>
+    <string name="History">History</string>
+    <string name="Test">Test</string>
 
 
     // placeholder for an array :)

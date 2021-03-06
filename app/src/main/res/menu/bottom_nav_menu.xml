@@ -9,21 +9,21 @@
     <item
         android:id="@+id/navigation_plate_calculator"
         android:icon="@drawable/ic_plate_calculator_icon"
-        android:title="Calculator" />
+        android:title="@string/Calculator" />
     <item
         android:id="@+id/navigation_builder"
         android:icon="@drawable/ic_builder_icon"
-        android:title="Builder" />
+        android:title="@string/Builder" />
 
 
     <item
         android:id="@+id/navigation_history"
         android:icon="@drawable/ic_workout_history_icon"
-        android:title="History" />
+        android:title="@string/History" />
 
     <item
         android:id="@+id/navigation_plate_inventory"
         android:icon="@drawable/ic_test"
-        android:title="Test" />
+        android:title="@string/Test" />
 
 </menu>
