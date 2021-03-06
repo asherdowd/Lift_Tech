@@ -15,7 +15,10 @@
             android:layout_width="360dp"
             android:layout_height="360dp"
             android:alpha=".2"
-            android:background="@drawable/ic_bbv3expanded"></ImageView>
+            android:background="@drawable/ic_bbv3expanded"
+            android:contentDescription="@string/main_app_logo">
+
+        </ImageView>
     </LinearLayout>
 
     <TextView

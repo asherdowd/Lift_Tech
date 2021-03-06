@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.NotificationsFragment">
+    tools:context=".ui.builder.BuilderFragment">
 
     <LinearLayout
         android:layout_height="match_parent"
@@ -15,7 +15,9 @@
             android:layout_width="356dp"
             android:layout_height="360dp"
             android:alpha=".2"
-            android:background="@drawable/ic_bbv3expanded"></ImageView>
+            android:background="@drawable/ic_bbv3expanded"
+            android:contentDescription="@string/main_app_logo">
+        </ImageView>
     </LinearLayout>
 
     <TextView
