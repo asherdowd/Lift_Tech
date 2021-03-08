@@ -12,5 +12,4 @@
   
 ## Platforms
   Initial platform version will be for Android with eventual iOS support to come.
-  
-## Lift Tech Initial Commit
+  Additionally working on a web platform as well.
